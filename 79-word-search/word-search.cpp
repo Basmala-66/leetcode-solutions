@@ -37,7 +37,6 @@ public:
                 if (board[i][j] == word[w])
                 {
 
-                    //w++;
                     dfs(board, i, j,w,word,ans);
                 }
                     
